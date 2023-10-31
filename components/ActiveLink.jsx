@@ -5,7 +5,7 @@ export const ActiveLink = ({ text, href}) => {
 
     const { asPath } = useRouter();
     const router = useRouter();
-    console.log(router);
+    // console.log(router);
 
     const style = {
         color: '#0070f3',
