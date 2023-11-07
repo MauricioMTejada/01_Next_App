@@ -1,6 +1,7 @@
 import {MainLayout} from "../../components/layouts/MainLayout";
 import { DarkLayout } from "../../components/layouts/DarkLayout";
 import Link from 'next/link'
+import { ReactNode } from "react";
 
 export default function Pricing() {
   return (
@@ -18,7 +19,7 @@ export default function Pricing() {
   )
 }
 
-Pricing.getLayout = function getLayout(page) {
+Pricing.getLayout = function getLayout(page: ReactNode) {
 	return (
 		<MainLayout>
 			<DarkLayout>
